@@ -1,9 +1,12 @@
 {
   "name": "@christiannaths/task-timer",
-  "version": "0.0.1",
+  "description": "A simple task timer for the command line",
+  "version": "0.0.2",
   "author": "Christian Naths",
   "license": "MIT",
+  "repository": "https://github.com/christiannaths/task-timer",
   "main": "dist/index.js",
+  "types": "./typings/global.d.ts",
   "scripts": {
     "start": "tsc -w",
     "build": "rimraf build && tsc"
